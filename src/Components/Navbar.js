@@ -18,7 +18,7 @@ export function Navbar() {
         <button onClick={() => usenavegate("/Контакты")}>Контакты</button>
         <button onClick={() => usenavegate("/Asosiy")}>Галерея</button>
         <button onClick={() => usenavegate("/Отзывы")}>Отзывы</button>
-        <button><img src="img/sumka.svg" alt="" /></button>
+        <button onClick={() => usenavegate("/Доставка")}><img src="img/sumka.svg" alt="" /></button>
       </div>
     </div>
     <div className="navbar">
